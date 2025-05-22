@@ -1,0 +1,35 @@
+.widget{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+
+}
+.color, h1{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+
+.change-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+
+    background: #4e75ff;
+}
+
+.change-color:hover{
+    background: #6c8cff;
+}
